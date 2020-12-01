@@ -1,0 +1,83 @@
+
+Node.js Coding Style Guidelines
+*******************************
+
+Formatting
+	4 spaces for indentation
+	Newlines
+	No trailing white space
+	Use semicolons
+	80 characters per line
+	Use single quotes.
+	Opening braces go on the same line
+	Declare one variable per var statement
+
+Naming Conventions
+	Use lowerCamelCase for variables, properties and function names
+	Use UpperCamelCase for class names
+	Use UPPERCASE for Constants
+	Object / Array creation
+
+Conditionals
+	Use the === operator
+	Use descriptive conditions
+
+Functions
+	Write small functions
+	Return early from functions
+	Method chaining
+
+Comments
+	Use slashes for comments
+
+Miscellaneous
+	‘Requires’ at top
+ 
+
+Structure your solution by components
+Wrap common utilities as npm packages
+Separate Express ‘app’ and ‘server’
+Use environment aware, secure and hierarchical config
+
+Error Handling Practices
+	Use Async-Await or promises for async error handling
+	Use only the built-in Error object
+	Distinguish operational vs programmer errors
+	Handle errors centrally, not within an Express middleware
+	Exit the process gracefully
+	Use a mature logger to increase error visibility
+	Catch unhandled promise rejections
+	
+Code Style Practices
+	Use ESLint - prettier and Standardjs 
+	Node.js specific plugins
+	Start a Codeblock’s Curly Braces on the Same Line
+	Separate your statements properly
+	Use naming conventions for variables, constants, functions, and classes
+	Require modules first, not inside functions
+	Require modules by folders, as opposed to the files directly
+	Use the === operator
+	Use Async Await, avoid callbacks
+	Use arrow function expressions (=>)
+ 
+ 
+Start all projects with npm init
+Setup .npmrc
+Use environment variables
+Use a style guide
+Say no to synchronous functions
+Handle Errors
+Confirm your app automatically restarts
+Acquaint yourself with JavaScript best practices
+Cluster your app to improve reliability and performance
+Entail all your dependencies up front
+Don't Concatenating multiple JS files
+	Employ client-side rendering
+	Application Monitoring
+	Test your code
+	Stick to lowercase
+	Avoid garbage
+	Use Promises
+	Use Messaging for Background Processes
+	
+

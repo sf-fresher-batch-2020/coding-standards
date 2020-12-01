@@ -1,0 +1,33 @@
+
+Angular Coding Style Guidelines
+*******************************	
+
+Use trackBy instead of ngFor
+Lazy Loading Feature Module
+  CDK Virtual Scroll 
+  Folder Structure for Angular
+  Prevent Memory Leaks in Angular Observable
+  Utilizing ES6 Features
+  Declare Variable Type Instead of Using ‘any’ - it will create some unintended issues.
+  Routing Practices for Hiding and Displaying Components
+   Angular Observable to Minimize the Risk of Memory Leaks
+   Angular Service Workers To Increase the Responsiveness of the App
+   Angular Security for High-end Web App Protection
+   Angular’s In-Built Async Pipes for Saving the Memory Bytes
+
+Angular Coding Styles
+	The code must not exceed from 400 lines limit, per file
+	And per function, the code must not exceed from 75 lines
+	Make sure to declare it with ‘const’ (when the values of the variables are intact)
+	To share feature area for all slider component, use Custom Prefix 
+	Routing is mainly used to tackle the navigation from one view to another. 
+		The single-page applications allow the user to show or hide the portions of the display.
+	Maintain Proper Folder Structure
+	Isolate API hacks
+	Use Appropriate Operators
+	Use of Smart vs. Dummy Components
+	Change Detection Optimizations
+	Lazy Loading a feature Module 
+	Creating module wise routes 
+	Organizing routes guards 
+ 	Single responsibility
